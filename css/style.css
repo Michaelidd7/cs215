@@ -1,0 +1,466 @@
+
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    font-family: 'Roboto' , sans-serif;
+    margin: 1px;
+}
+/* 
+   general  styles for all the files ends
+*/
+
+
+/* Container */
+.login-signup-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.login-signup-header {
+    background-color: #004F2E;
+    color: white;
+    padding: 1em 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.login-signup-header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+}
+
+/* "Sign Up" Button in Header */
+.button-style-link-1 {
+    background-color: #009A44;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-style-link-1:hover {
+    background-color: #006B33;
+    transform: scale(1.05);
+}
+
+/* Main Section */
+.login-signup-main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form Styling */
+.auth-form {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-input-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #009A44;
+    box-shadow: 0 0 4px rgba(0, 154, 68, 0.5);
+}
+
+/* Submit Button */
+.align-right {
+    text-align: right;
+}
+
+input[type="submit"] {
+    background-color: #009A44;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #006B33;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /** topic list ** /
+
+ 
+ /* Topic List Main Section */
+
+ .login-signup-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.topic-list-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.login-signup-header, .topic-list-header {
+    background-color: #004F2E;
+    color: white;
+    padding: 1em 0;
+}
+.header-container, .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.topic-list-main {
+    flex: 1;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+/* Table Styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: #004F2E;
+    color: white;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+/* Styling for Note Count */
+.note-count {
+    display: inline-block;
+    font-size: 0.9rem; /* Smaller than buttons */
+    background-color: #6aae87;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+table tr:hover {
+    background-color: #eaeaea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer (Shared Across Pages) */
+#footer-auth, .topic-list-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-text a {
+    color: #009A44;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-text a:hover {
+    color: #006B33;
+}
+
+.footer-text-2 {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** access page **/
+
+/* Access Container */
+.access-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.access-header {
+    background-color: #004F2E;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.access-header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+.button-style-link-1 {
+    background-color: #009A44;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.button-style-link-1:hover {
+    background-color: #006B33;
+    transform: scale(1.05);
+}
+/* Main Section */
+.access-main {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* Individual Session Block */
+.session {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+/* User Info */
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.avatar-circle {
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.user-info p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* Access Actions */
+.access-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.access-actions label {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.access-actions input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Footer */
+.access-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-text a {
+    color: #009A44;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-text a:hover {
+    color: #006B33;
+}
+
+.footer-text-2 {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}

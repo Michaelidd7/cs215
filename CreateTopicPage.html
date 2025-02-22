@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Create Topic - WebApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="topic-list-container">
+        <!-- Header -->
+        <header class="topic-list-header">
+            <h1>WebApp</h1>
+            <div class="button-container">
+                <a class="button-style-link-1" href="topicListPage.html">Return</a>
+                <a class="button-style-link-1" href="login.html">Logout</a>
+            </div>
+        </header>
+
+        <!-- Main Section -->
+        <main class="topic-list-main">
+            <form class="auth-form" action="veiwNotesPages.html" method="post">
+                <div class="form-input-grid">
+                    <!-- Topic Name -->
+                    <label for="topic-name">Topic Name:</label>
+                    <input type="text" id="topic-name" name="topic-name" >
+
+                    <!-- Instructor -->
+                    <label for="instructor">Instructor:</label>
+                    <input type="text" id="instructor" name="instructor" >
+
+                    <!-- Class -->
+                    <label for="class">Class:</label>
+                    <input type="text" id="class" name="class">
+
+                    <!-- Description -->
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="align-right">
+                <input type="submit" value="Create Topic">
+                </div>
+            </form>
+        </main>
+
+        <!-- Footer -->
+        <footer class="topic-list-footer">
+            <p class="footer-text"><a href="#">Help</a></p>
+            <p class="footer-text-2"><a href="#">Contact Us</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
